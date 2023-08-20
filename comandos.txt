@@ -1,0 +1,30 @@
+302  git init
+  303  git remote add origin https://github.com/AylinTriana/aylinrojas16-08-23.git
+  304  touch main.js index.html
+  305  git config user.name "aylintriana35@gmail.com"
+  306  git add .
+  307  git commit -m "commit 01 de aylinRojas"
+  308  git push origin main
+  309  git branch feature
+  310  git checkout feature
+  311  mkdir Hardware Software SeguridadInformatica
+  312  cd Hardware/
+  313  touch resumen.txt
+  314  ls
+  315  cd ..
+  316  cd Software/
+  317  touch resumen.txt
+  318  ls
+  319  cd ..
+  320  cd SeguridadInformatica/
+  321  touch resumen.txt
+  322  ls
+  323  cd ..
+  324  git add .
+  325  git commit -m "commit 02 de aylinRojas"
+  326  git push origin feature
+  327  git checkout main
+  328  mv main.js resumenHardware.txt
+  329  mv index.html resumenSoftware.txt
+  330  touch comandos.txt
+  331  history
